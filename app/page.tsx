@@ -23,7 +23,7 @@ export default async function Home({
       <header className="border-b border-zinc-200 bg-white/60 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/60">
         <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
           <Link href="/" className="text-lg font-semibold tracking-tight">
-            linktree<span className="text-emerald-500">.clone</span>
+            link<span className="text-emerald-500">able</span>
           </Link>
           <nav className="flex items-center gap-2">
             {user ? (

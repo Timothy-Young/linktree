@@ -77,7 +77,7 @@ export function SignupForm() {
         <Label htmlFor="username">Username</Label>
         <div className="flex items-center rounded-md border border-zinc-300 bg-white focus-within:ring-2 focus-within:ring-zinc-900 focus-within:ring-offset-1 dark:border-zinc-700 dark:bg-zinc-900 dark:focus-within:ring-zinc-100">
           <span className="select-none pl-3 text-sm text-zinc-400">
-            linktree.clone/
+            linkable/
           </span>
           <input
             id="username"

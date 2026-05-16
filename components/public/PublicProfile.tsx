@@ -77,7 +77,7 @@ export function PublicProfile({
         </div>
 
         <footer className="mt-12 text-xs opacity-50">
-          linktree.clone
+          linkable
         </footer>
       </div>
     </main>

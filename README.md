@@ -1,4 +1,4 @@
-# Linktree Clone
+# Linkable
 
 A self-hostable bio-link app built with **Next.js 16** (App Router, RSC), **Supabase** (Postgres + Auth + Storage), and **Tailwind CSS v4**.
 

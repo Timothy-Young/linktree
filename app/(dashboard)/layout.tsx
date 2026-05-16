@@ -36,7 +36,7 @@ export default async function DashboardLayout({
               href="/"
               className="text-lg font-semibold tracking-tight"
             >
-              linktree<span className="text-emerald-500">.clone</span>
+              link<span className="text-emerald-500">able</span>
             </Link>
             <AdminNav />
           </div>

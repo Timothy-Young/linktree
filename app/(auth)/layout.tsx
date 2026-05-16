@@ -10,7 +10,7 @@ export default function AuthLayout({
       <header className="border-b border-zinc-200 dark:border-zinc-800">
         <div className="mx-auto flex h-16 max-w-5xl items-center px-6">
           <Link href="/" className="text-lg font-semibold tracking-tight">
-            linktree<span className="text-emerald-500">.clone</span>
+            link<span className="text-emerald-500">able</span>
           </Link>
         </div>
       </header>

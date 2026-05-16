@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Linktree Clone",
+  title: "Linkable",
   description:
     "One link for everything — host your bio, social profiles, and any other content.",
 };
