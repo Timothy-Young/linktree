@@ -18,7 +18,7 @@ A self-hostable bio-link app built with **Next.js 16** (App Router, RSC), **Supa
 
 ### 1. Create a Supabase project
 
-Grab the **Project URL** and **anon key** from the API settings.
+Grab the **Project URL** and **publishable key** (formerly called the anon key) from the API settings.
 
 ### 2. Run the schema
 
@@ -39,7 +39,7 @@ Fill in:
 
 ```
 NEXT_PUBLIC_SUPABASE_URL=https://<project>.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=<anon-key>
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=<publishable-key>
 ```
 
 ### 4. Run it
@@ -75,4 +75,4 @@ supabase/schema.sql              # one-shot setup
 
 ## Deployment
 
-Push to GitHub, import the repo into Vercel, set the two `NEXT_PUBLIC_SUPABASE_*` env vars, and deploy. No further config needed.
+Push to GitHub, import the repo into Vercel, set `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, and deploy. No further config needed.
